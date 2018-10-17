@@ -1,0 +1,42 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/grid.css">
+  <link rel="stylesheet" href="../css/Slider.css">
+</head>
+<body>
+<!-- Navbar -->
+  <div class="Bar">
+    Selamat Datang
+    <div class="navkanan">
+      <a href="">Masuk</a>
+    </div>
+  </div>
+  <nav class="navbar">
+    <ul>
+      <img src="../picture/logo-naturally.png" class="logo">
+      <li><a href="">Home</a></li>
+      <li><a href="">Home</a></li>
+      <li><a href="">Home</a></li>
+    </ul>
+  </nav>
+<!-- Body -->
+
+
+<!-- Footer -->
+  <div class="footer1">
+
+  </div>
+  <footer class="footer">
+  <p>Created By MasDim</p>
+  <p>Jomblo itu pilihan</p>
+  <p><strong>Contact us :</strong> mokhamadasif@gmail.com</p>
+</footer>
+</body>
+</html>
