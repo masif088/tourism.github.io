@@ -1,7 +1,12 @@
 body{
-    margin: auto;
-    padding: auto;
+    margin: 0px;
+    padding: 0px;
     width: 100%;
+}
+p{
+    margin: 0px;
+    padding: 0px;
+
 }
 .Bar{
     background: linear-gradient(to right,#cb3066,#16BFFD);
@@ -95,13 +100,15 @@ a{
   margin-top: inherit;
 }
 
-footer{
-  padding-left: 100px;
+.footer2{
+  display: block;
+    width: 100%;
+    height: 200px;
   background: #6d519D;
   color: #ffffff;
 }
+
 .footer1{
-    margin-top: 20px;
     background: linear-gradient(to top right,#ee7c33,#cb3066);
     width: 100%;
     height: 40px;
