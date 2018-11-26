@@ -3,82 +3,18 @@ body{
     padding: 0px;
     width: 100%;
 }
-p{
-    margin: 0px;
-    padding: 0px;
-
-}
-.Bar{
-    background: linear-gradient(to right,#cb3066,#16BFFD);
-    font-size: 20px;
-    padding-left: 75px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-}
-.navbar {
-    width: 100%;
-    list-style-type: none;
-    text-align: center;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 12px;
-    overflow: hidden;
-    box-shadow: 1px 10px 20px #aaaaaa;
-    background: white;
-    padding-right: 75px;
-
-}
-li{
-    float: right;
-}
-li a {
-    display: block;
-    color:#cb3066;
-    text-align: center;
-    margin: auto;
-
-    font-size: 18px;
-    padding: 10px 10px 5px 15px;
-    text-decoration: none;
-}
-
-li a:hover{
-    color: #16BFFD;
-    font-size: 20px;
-    text-align: center;
-    padding: 10px 8px 5px 12px;
-}
-
-.navkanan{
-    float: right;
-    padding-right: 75px;
-    display: block;
-    text-align: center;
-}
 h1{
     width: 40%;
     padding-top: 200px;
 }
+p{
+    padding: 0;
+    margin: 0;
+}
 a{
+    padding: 0;
+    margin: 0;
     text-decoration: none;
-}
-.p{
-    width: 40%;
-    padding-top: 240px;
-    font-size: small;
-}
-
-.logojember{
-  width: 100px;
-  height: auto;
-}
-.containerlogo{
-  width: 100%;
-
-  text-align: center;
 }
 
 .logo{
@@ -87,38 +23,47 @@ a{
   margin-left: 75px;
 }
 .input{
-  background: linear-gradient(to top right, #3333EE,#cb30cb);
+  background: linear-gradient(to right, #3333EE,#cb30cb);
   width: 120px;
   height: 40px;
   border-radius: 8px;
   color: white;
+    text-align: center;
   font-size: 20px;
 }
 
-.textimg {
-  position: absolute;
-  margin-top: inherit;
+.footer1{
+    margin-top: 100px;
+    background: linear-gradient(to right,#ee7c33,#cb3066);
+    width: 100%;
+    height: 50px;
 }
+
 
 .footer2{
-  display: block;
+    display: block;
     width: 100%;
-    height: 200px;
-  background: #6d519D;
-  color: #ffffff;
+    height: 50px;
+    background: #6d519D;
+    color: #ffffff;
+}
+.footer2 p{
+    padding-top: 15px;
+    text-align: center;
+    text-decoration: white;
+}
+.footer2 a{
+    color: white;
+}
+.footer2 a:hover{
+    color: #16BFFD;
 }
 
-.footer1{
-    background: linear-gradient(to top right,#ee7c33,#cb3066);
-    width: 100%;
-    height: 40px;
-}
+
+
+
 .box{
 width:350px;
 height:350px;
 background:green;
-}
-.img1{
-    width: 100%;
-    height: 100%;
 }

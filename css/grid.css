@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 5px;
-    margin: 0px 5px;
+    margin: 0 5px;
 }
 .grid-container3 {
     display: grid;
@@ -16,19 +16,55 @@
     margin: 5px;
 }
 
+.grid-container4{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 50px;
+}
+
+.grid-container4 h3{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.grid-container4 .grid-item{
+    height: 200px;
+}
+
 .grid-containerX{
     display: grid;
-    grid-template-columns: 70% 30%;
-    margin: 5px;
-    grid-gap: 30px;
+    grid-template-columns: 69% 1% 30%;
+    margin: 45px;
+    grid-gap: 20px;
 }
 .grid-item {
     background-color: rgba(255, 255, 255, 0.8);
     max-height: 500px;
     height: auto;
-
 }
 
+.grid-item h2{
+    padding-left: 10px;
+    position: absolute;
+    padding-top: 200px;
+    z-index: 2;
+    color: white;
+}
+
+.grid-item p{
+    padding-left: 10px;
+    position: absolute;
+    padding-top: 250px;
+    max-width: 505px;
+    z-index: 2;
+    color: white;
+}
+.grid-item img{
+    width: 100%;
+    height: 100%;
+}
 .grid-item1 {
     background-color: rgba(255, 255, 255, 0.8);
     height: auto;
@@ -36,6 +72,9 @@
 .grid-item2 {
     background-color: rgba(255, 255, 255, 0.8);
     height: auto;
+}
+.grid-item3{
+
 }
 .grid-item:hover{
     -webkit-transform: scale(1.02);
@@ -50,6 +89,6 @@
 .grid-item .img{
     width: 100%;
     height: auto;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
