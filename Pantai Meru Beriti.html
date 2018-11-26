@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/Slider.css">
+    <link rel="stylesheet" href="css/page.css">
+    <link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
 <!-- Navbar -->
@@ -19,34 +21,36 @@
         <a href="Login.html">Masuk</a>
     </div>
 </div>
-<nav class="navbar">
-    <ul>
-        <img src="picture/logo-naturally.png" class="logo">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="">Pijakan</a></li>
-            <li><a href="Jelajahi.html">Jelajahi</a></li>
-
-    </ul>
-</nav>
+<div class="topnav" id="myTopnav">
+    <img src="picture/logo-naturally.png" class="logo">
+    <div class="dropdown">
+        <button class="dropbtn">Jelajahi
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="#">Pantai</a>
+            <a href="#">Hutan</a>
+            <a href="#">Kuliner</a>
+            <a href="#">Edukasi</a>
+        </div>
+    </div>
+    <a href="#news">Pijakan</a>
+    <a href="#home">Home</a>
+</div>
 <div style="text-align: center">
     <h2>Taman Nasional Meru Betiri</h2>
     <h3>Surga Flora dan Fauna</h3>
 </div>
 
 <!-- Slider -->
-<div style="width: 100%; margin: auto" >
-    <div id="slider">
-        <figure>
-            <img src="picture/Taman-Nasional-Meru-Betiri-Pantai-Rajegwesi.jpg" alt>
-        </figure>
-    </div>
+<div class="gambar" >
+    <img src="picture/Taman-Nasional-Meru-Betiri-Pantai-Rajegwesi.jpg" alt>
 </div>
 
 <!-- Grid -->
-<div style="width: 90%; margin: auto">
-<div class="grid-containerX" ;style="width: 90%">
+<div class="grid-containerX" style="width: 90%">
     <div class="grid-item3">
-        <p>
+        <p class="paragraf">
             Wisata Taman Nasional Meru Betiri Jember adalah salah satu hutan wisata alam
             yang terletak di dua kabupaten besar di Jawa Tiimur, yaitu kabupaten banyuwangi
             dan kabupaten Jember. Meskipun pesonanya belum setenar hutan wisata lainnya,
@@ -56,6 +60,8 @@
             pantai-pantai lain di samudera hindia. Alamat Taman Nasional Meru Betiri ini
             masuk di kawasan kecamatan pesanggaran, kabupaten banyuwangi dan
             kabupaten Jember. <br><br>
+        </p>
+        <p>
             Taman Nasional Meru Betiri Banyuwangi atau disingkat dengan TNMB merupakan
             tempat konservasi tanaman dan hewan yang dilindungi. Selain itu, terdapat pula
             tempat wisata yang bisa menjadi wahana untuk Anda dalam mengisi hari libur.
@@ -63,6 +69,8 @@
             berpetualang dan berwisata di taman nasional ini. Jika Anda hendak mencoba
             berwisata ke taman nasional ini, Anda bisa menemukan peta Taman Nasional
             Meru Betiri di sepanjang perjalanan Anda. <br><br>
+        </p>
+        <p>
             Taman Nasional Meru Betiri melindungi hewan-hewan langka yang hampir punah,
             sejenis tumbuh-tumbuhan langka, dan tanaman obat. Sudah banyak pihak yang
             memanfaatkan tanaman obat ini dan melakukan penelitian di meru betiri. Anda
@@ -72,34 +80,63 @@
             mendapatkan banyak informasi berkaitan dengan penelitian alam yang Anda
             lakukan. Pihak pengelola akan memandu Anda dalam memulai tahap riset,
             tempat, dan waktu yang akan Anda gunakan. <br><br>
+        </p>
+        <p>
             Nama meru betiri diambil dari nama gunung yang terdapat di dalamnya, yaitu
             gunung meru dan gunung betiri. Sehingga taman nasional ini diberi nama Taman
             Nasional Meru Betiri. Letak Taman Nasional Meru Betiri yang berada di dua
             kabupaten, membuat sebagian pengunjung menyebutnya dengan nama Taman
             Nasional Meru Betiri banyuwangi maupun Taman Nasional Meru Betiri Jember.
             Keduanya sama. <br><br>
+        </p>
+        <p>
             Ternyata, kawasan wisata ini sudah ada sejak zaman kolonial Belanda. Bahkan,
             taman ini diresmikan pertama kali oleh pemerintah Belanda pada tahun 1929.
             Taman ini diresmikan dengan tujuan agar terjaga kealamian, kelestarian, dan
             ekosistem yang ada di dalamnya. Pada tahun 1979, wilayah ini secara sah
             dijadikan kawasan hutan lindung.
         </p>
+        <hr class="hr" width="93%" style="background-color: black; float: left">
+        <img src="picture/icon/Plus.svg" style="width: 5%;margin-left:10px ;margin-top: 10px" alt="">
+        <form action="">
+            <input type="text" class="textarea">
+            <input class="buttom1" type="submit"value= "JEJAKI">
+        </form>
+        <div class="comment row">
+            <img src="picture/asif%20KTP.jpg" alt="">
+            <h5>Mokhamad Asif</h5>
+            <p>Bagus tempatnya rekomendasi banget buat yang pecinta pantai tidak nyesel dah</p>
+        </div>
+        <div class="comment row">
+            <img src="picture/asif%20KTP.jpg" alt="">
+            <h5>Temannya Asif</h5>
+            <p>Bagus tempatnya rekomendasi banget buat yang pecinta pantai tidak nyesel dah jalannya kurang mendukung tapi Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolorem, minima? Aliquid animi dolorem exercitationem facere, in iusto natus officia perspiciatis provident quia quos reiciendis, saepe totam ullam veritatis, voluptatibus.</p>
+        </div>
     </div>
-    <div class="grid-item3">
-        <img src="picture/air%20terjun%20sumbergadung%201.JPG" style="width: 300px; height: 300px" alt="">
+    <div style="width:1px; height:650px; background-color:black;"></div>
+    <div class="grid-side">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252579.59893622118!2d113.76012209628078!3d-8.44718424939819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xbd4636084b73e0a0!2sTaman+Nasional+Meru+Betiri!5e0!3m2!1sid!2sid!4v1542763918780" width="100%   " height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div class="row">
+            <img src="picture/air%20terjun%20sumbergadung%201.JPG" alt="">
+            <h5>Rekomendasi 1</h5>
+            <p>Mokhamad Asif</p>
+        </div>
+        <div class="row">
+            <img src="picture/air%20terjun%20rayap%201.JPG" alt="">
+            <h5>Rekomendasi 1</h5>
+            <p>Mokhamad Asif</p>
+        </div>
     </div>
 </div>
-</div>
+
 </div>
 
 <!-- Footer -->
 <div class="footer1">
 
 </div>
-<footer class="footer">
-    <p>Created By MasDim</p>
-    <p>Jomblo itu pilihan</p>
-    <p><strong>Contact us :</strong> mokhamadasif@gmail.com</p>
-</footer>
+<div class="footer2">
+    <p>Kebijakan Privasi        | Syarat dan Ketentuan  |</p>
+</div>
 </body>
 </html>
