@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/grid.css">
   <link rel="stylesheet" href="css/Slider.css">
+  <link rel="stylesheet" href="satu-satunya.js">
     <title></title>
 </head>
 <body>
@@ -19,20 +20,26 @@
   </div>
 </div>
 <div class="topnav" id="myTopnav">
-  <img src="picture/logo-naturally.png" class="logo">
-  <div class="dropdown">
-    <button class="dropbtn">Jelajahi
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Pantai</a>
-      <a href="#">Hutan</a>
-      <a href="#">Kuliner</a>
-      <a href="#">Edukasi</a>
+  <div id="navmenu">
+    <img src="picture/logo-naturally.png" class="logo">
+
+    <a href="Pijakan.html">Pijakan</a>
+    <a href="index.html">Home</a>
+
+    <div class="dropdown">
+      <button class="dropbtn">Jelajahi
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="Pantai.html">Pantai</a>
+        <a href="#">Hutan</a>
+        <a href="#">Kuliner</a>
+        <a href="#">Edukasi</a>
+      </div>
     </div>
   </div>
-  <a href="">Pijakan</a>
-  <a href="index.html">Home</a>
+  <a href="javascript:void(0);" style="font-size:15px; text-align: right" class="icon"
+     onclick="myFunction()">&#9776;</a>
 </div>
 
 <div class="grid-container2">
@@ -52,13 +59,13 @@
     <h2 >Daftar</h2>
     <form action="">
       <p>Nama</p>
-      <input type="text" name="Nama" size="20" max="30" pattern="[Aa-Zz]*">
+      <input type="text" name="Nama" size="20" max="30" required pattern="[Aa-Zz]*">
       <p>Email</p>
       <input type="text" name="Email" size="20" required pattern=" [a-z0-9._%]*+@[a-z0-9.-]*+.[a-z]*{2,4}">
       <p>Sandi</p>
-      <input type="password" name="Sandi" size="20" max="30">
+      <input type="password" name="Sandi" size="20" max="30" required>
       <p>Ketik ulang sandi</p>
-      <input type="password" name="Sandi" size="20" max="30">
+      <input type="password" name="Sandi" size="20" max="30" required>
       <p>Kebangsaan</p>
       <select name="Kebangsaan" required>
         <option size="30" selected style="width: 208px">Pilih</option>
@@ -66,12 +73,14 @@
         <option value="Warga Negara Asing">Warga Negara Asing</option>
       </select>
       <p>Tanggal Lahir</p>
-      <input type="date" name="Tanggal Lahir" style="width: 228px" pattern="[Aa-Zz]*">
+      <input type="date" name="Tanggal Lahir" style="width: 228px" required>
       <p>Alamat</p>
-      <input type="text" name="Alamat" size="20" max="30">
+      <input type="text" name="Alamat" size="20" max="30" required>
       <p>Telepon</p>
-      <input type="text" name="Telepon" size="20" max="30">
-      <p><input type="checkbox" value="Privacy and Police">Saya setuju dengan <a href="Kebijakan.html">Kebijakan Privasi</a> dan <a href="Syarat.hml">Syarat dan Ketentuan</a>  </p>
+      <input type="text" name="Telepon" size="20" max="30" required>
+      <p>Foto Profil</p>
+      <input type="file" name="image" required>
+      <p><input type="checkbox" value="Privacy and Police" required >Saya setuju dengan <a href="Kebijakan.html">Kebijakan Privasi</a> dan <a href="Syarat.hml">Syarat dan Ketentuan</a>  </p>
       <br><br>
       <input class="input" type="submit"value= "Daftar">
       </form>

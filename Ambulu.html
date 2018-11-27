@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/Slider.css">
     <link rel="stylesheet" href="css/page.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="satu-satunya.js">
 </head>
 <body>
 <!-- Navbar -->
@@ -22,21 +23,28 @@
     </div>
 </div>
 <div class="topnav" id="myTopnav">
-    <img src="picture/logo-naturally.png" class="logo">
-    <div class="dropdown">
-        <button class="dropbtn">Jelajahi
-            <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-            <a href="#">Pantai</a>
-            <a href="#">Hutan</a>
-            <a href="#">Kuliner</a>
-            <a href="#">Edukasi</a>
+    <div id="navmenu">
+        <img src="picture/logo-naturally.png" class="logo">
+
+        <a href="Pijakan.html">Pijakan</a>
+        <a href="index.html">Home</a>
+
+        <div class="dropdown">
+            <button class="dropbtn">Jelajahi
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="Pantai.html">Pantai</a>
+                <a href="#">Hutan</a>
+                <a href="#">Kuliner</a>
+                <a href="#">Edukasi</a>
+            </div>
         </div>
     </div>
-    <a href="#news">Pijakan</a>
-    <a href="#home">Home</a>
+    <a href="javascript:void(0);" style="font-size:15px; text-align: right" class="icon"
+       onclick="myFunction()">&#9776;</a>
 </div>
+
 <div style="text-align: center">
     <h2>Kecamatan Ambulu</h2>
     <h3>Ambu Gelu</h3>
@@ -44,7 +52,7 @@
 
 <!-- Slider -->
 <div class="gambar" >
-    <img src="picture/Kecamatan/Ambulu" alt>
+    <img src="picture/Kecamatan/papuma.jpg" alt>
 </div>
 
 <!-- Grid -->
