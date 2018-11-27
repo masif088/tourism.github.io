@@ -2,6 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     width: 100%;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
 }
 h1{
     width: 40%;
@@ -20,7 +21,11 @@ a{
 .logo{
   height: 40px;
   float: left;
-  margin-left: 75px;
+}
+@media screen and (max-width: 600px) {
+    .logo{
+        display: none;
+    }
 }
 .input{
   background: linear-gradient(to right, #3333EE,#cb30cb);
@@ -48,9 +53,14 @@ a{
     color: #ffffff;
 }
 .footer2 p{
-    padding-top: 15px;
+    padding-top: 10px;
     text-align: center;
     text-decoration: white;
+}
+.footer2 img{
+    width: 20px;
+    margin:0 10px;
+    float: end;
 }
 .footer2 a{
     color: white;

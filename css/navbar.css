@@ -4,10 +4,11 @@
     overflow: hidden;
     width: 100%;
     list-style-type: none;
-    padding: auto 0;
+    padding-top: auto ;
     box-shadow: 1px 10px 20px #aaaaaa;
     margin-right: 100px;
     margin-bottom: 50px;
+
 }
 .topnav p{
     margin: 0;
@@ -16,6 +17,7 @@
     color: white;
     float: left;
 }
+
 
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -38,7 +40,6 @@
 /* Dropdown container - needed to position the dropdown content */
 .dropdown {
     float: right;
-    padding-right: 60px;
     overflow: hidden;
 }
 
@@ -78,6 +79,7 @@
 .topnav a:hover, .dropdown:hover .dropbtn {
     color: #16BFFD;
     text-align: center;
+    background-color: #f4f4f4;
 }
 
 /* Add a grey background to dropdown links on hover */
@@ -96,9 +98,10 @@
         display: none;
     }
     .topnav a.icon {
-        float: right;
+        float: none;
         display: block;
     }
+
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -130,6 +133,17 @@
     padding-bottom: 10px;
     color: white;
 }
+
+@media screen and (max-width: 600px) {
+    .Bar{
+        background: linear-gradient(to right,#cb3066,#16BFFD);
+        font-size: 15px;
+        padding-left: 10px  ;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: white;
+    }
+}
 .navkanan{
     float: right;
     padding-right: 75px;
@@ -139,6 +153,12 @@
 .navkanan a{
     color: white;
 }
+
+
 .navkanan a:hover{
     color: #cb3066;
+}
+#navmenu{
+    width: 90%;
+    margin: auto;
 }
