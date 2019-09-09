@@ -1,12 +1,12 @@
-.grid-item3 p{
+.grid-text p{
     text-align: justify;
     text-indent: 50px;
 }
-.grid-side img{
+.row img{
     width: 100px;
     height: 100px;
     float: left;
-    margin-bottom: 10px;
+    margin : 10px 10px;
 }
 
 .row::after {
@@ -15,17 +15,27 @@
     display: block;
 }
 
-.grid-side p{
-    font-size: 12px;
+.row{
+    background: rgba(1,1,1,0.05);
+    margin: 10px;
+    border-radius: 10px;
 }
-.grid-side h5{
-    margin-top: 20px;
-    padding-top: 20px;
+.row p,h5{
+    padding-top: 10px;
+    margin: 0;
 }
 .gambar img {
     width: 100%;
     height: 500px;
 }
+@media screen and (max-width:720px){
+    .gambar img {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
 .textarea{
     width: 98%;
     height: 150px;
@@ -46,7 +56,7 @@
     margin-top: 20px;
     width: 100%;
     height: auto;
-    padding: 10px;
+    padding: 10px 0 10px 0;
     background: rgba(1,1,1,0.05);
     border-radius: 5px;
 }
@@ -59,4 +69,42 @@
 .comment p{
     text-indent: 0;
     padding-left: 90px;
+    padding-right: 10px;
+}
+.hr hr{
+    width:94%;
+    background-color: black;
+    float: left;
+    margin-top: 20px;
+}
+.hr img{
+    width: 5%;
+    padding-left: 5px;
+}
+.hv {
+    background-color:black;
+    width: 1px;
+}
+@media screen and (max-width: 720px) {
+    .comment img{
+        float: left;
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+    }
+    .comment p{
+        clear: both;
+        padding-left: 10px;
+    }
+    .hr hr{
+        width:100%;
+        padding: 0;
+        margin: 10px 0;
+    }
+    .hr img{
+        display: none;
+    }
+    .hv{
+        display: none;
+    }
 }
